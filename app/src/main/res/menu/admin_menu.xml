@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/enter_as_user_item"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Enter as User"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/view_users_item"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="View Users"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/view_vehicles_item"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="View Vehicles"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/logout_item"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Logout"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
